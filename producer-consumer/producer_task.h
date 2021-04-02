@@ -9,7 +9,6 @@ class ProducerTask
 
         ProducerTask(std::string socketName);
 
-        // main entry point
         void run();
 
     private:

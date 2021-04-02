@@ -10,13 +10,11 @@ class ConsumerTask
 
         ConsumerTask(std::string socketName);
 
-        int handleEvents();
-
-
-
         void run();
 
     private:
+
+        int handleEvents();
 
         void handleNewConnection(int connfd);
        
